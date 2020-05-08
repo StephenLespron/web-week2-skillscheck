@@ -49,7 +49,7 @@ let setColor = arr => {
             arr.splice(i,1,`#4d4dff`)
         }
     }
-    background({arr})
+    background(arr[0],arr[1],arr[2])
 }
 
 //////////////////Step 5////////////////////
